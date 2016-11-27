@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D03DA7F1DEAFF780029F719 /* ChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D03DA7E1DEAFF780029F719 /* ChildClass.m */; };
 		8D75EA5E1DEAE19100A51263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75EA5D1DEAE19100A51263 /* main.m */; };
 		8D75EA611DEAE19100A51263 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75EA601DEAE19100A51263 /* AppDelegate.m */; };
 		8D75EA641DEAE19100A51263 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75EA631DEAE19100A51263 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D03DA7D1DEAFF780029F719 /* ChildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildClass.h; sourceTree = "<group>"; };
+		8D03DA7E1DEAFF780029F719 /* ChildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildClass.m; sourceTree = "<group>"; };
 		8D75EA581DEAE19100A51263 /* FunctionsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D75EA5C1DEAE19100A51263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D75EA5D1DEAE19100A51263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				8D75EA631DEAE19100A51263 /* ViewController.m */,
 				8DF3C1C21DEAE4720086FBFD /* ParentClass.h */,
 				8DF3C1C31DEAE4720086FBFD /* ParentClass.m */,
+				8D03DA7D1DEAFF780029F719 /* ChildClass.h */,
+				8D03DA7E1DEAFF780029F719 /* ChildClass.m */,
 				8D75EA651DEAE19100A51263 /* Main.storyboard */,
 				8D75EA681DEAE19100A51263 /* Images.xcassets */,
 				8D75EA6A1DEAE19100A51263 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF3C1C41DEAE4720086FBFD /* ParentClass.m in Sources */,
+				8D03DA7F1DEAFF780029F719 /* ChildClass.m in Sources */,
 				8D75EA641DEAE19100A51263 /* ViewController.m in Sources */,
 				8D75EA611DEAE19100A51263 /* AppDelegate.m in Sources */,
 				8D75EA5E1DEAE19100A51263 /* main.m in Sources */,

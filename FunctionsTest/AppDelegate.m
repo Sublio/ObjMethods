@@ -20,10 +20,12 @@
     
     
     ParentClass* parent = [[ParentClass alloc] init];
-    [parent sayHello];
-    [parent say:@"Hello" and:@"Man"];
+    //[parent sayHello];
+    //[parent say:@"Hello" and:@"Man"];
     
     NSLog(@"%@", [parent saySomethings]);
+    
+    //[ParentClass whoAreYou]
 
     return YES;
 }

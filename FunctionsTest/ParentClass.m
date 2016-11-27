@@ -32,8 +32,15 @@
 
 -(NSString*) saySomethings {
     
+    NSString* string = [self sayPrivateDate];
     
-    return @"I won't say anything";
+    return string;
+}
+
+- (NSString*) sayPrivateDate {
+    
+    
+    return [NSString stringWithFormat:@"%@",[NSDate date]];
 }
 
 @end
