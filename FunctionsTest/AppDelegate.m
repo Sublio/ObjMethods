@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ParentClass.h"
+#import "ChildClass.h"
 
 @interface AppDelegate ()
 
@@ -19,13 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     
-    ParentClass* parent = [[ParentClass alloc] init];
-    //[parent sayHello];
-    //[parent say:@"Hello" and:@"Man"];
+    ChildClass* parent = [[ChildClass alloc] init];
     
-    NSLog(@"%@", [parent saySomethings]);
-    
-    //[ParentClass whoAreYou]
 
     return YES;
 }
