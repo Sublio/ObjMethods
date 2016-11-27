@@ -11,16 +11,29 @@
 @implementation ParentClass
 
 
++ (void) whoAreYou{
+    
+    NSLog(@"I am a class method");
+    
+}
+
 - (void) sayHello {
     
     
     NSLog(@"Parent says Hello");
 }
 
--(void) say: (NSString*) string {
+-(void) say: (NSString*) string and: (NSString*) string2 {
     
     
-    NSLog(@"%@", string);
+    NSLog(@"%@, %@", string,string2);
+}
+
+
+-(NSString*) saySomethings {
+    
+    
+    return @"I won't say anything";
 }
 
 @end
